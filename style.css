@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'inter',sans-serif;
+}
+:root{
+    --black: #000000;
+    --white: #FFF;
+    --neon-green: #C4F82A;
+    --dark-grey: #2c2b2bec;
+    --green: #53851bbc;
+}
+
+body{
+    background-color: var(--black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: var(--dark-grey);
+    width: 384px;
+    text-align:center;
+    padding: 40px;
+    border-radius: 14px;
+}
+
+img {
+   width: 88px;
+   border-radius: 50%;
+   margin-bottom: 24px;
+}
+
+
+ ul, li{
+    list-style: none;
+
+ }
+ strong{
+    color: var(--neon-green);
+    font-size: 14px;
+ }
+
+ p{
+    margin-block: 24px;
+    font-size: 14px;
+    color: var(--white);
+    
+ }
+
+ a{
+    display: block;
+    background-color: var(--green);
+    margin-bottom: 16px;
+    padding: 12px;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+
+ }
+
+ h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--white);
+ }
+ a:hover{
+    background-color: var(--neon-green);
+    color: var(--dark-grey);
+    transition: 0.4;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
